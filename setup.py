@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 
 import bol
 
+
 # Dynamically calculate the version based on actistream.VERSION.
 VERSION = bol.__version__
 IS_PY2 = sys.version_info[0] < 3
